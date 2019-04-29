@@ -1,0 +1,20 @@
+body {							
+	background-image: url('../img/background/bg1.jpg');
+}	
+h1 {
+	text-align: center;
+	color: white;
+}	
+h2 {
+	margin-left: 60%;
+	color: white;
+}
+h3 {
+	color: blue;
+}
+p {
+	text-indent: 32px;
+	font-size: 16px;
+	line-height: 32px;
+	color: white;
+}
