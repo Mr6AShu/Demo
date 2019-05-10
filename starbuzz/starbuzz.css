@@ -28,12 +28,12 @@ body {
 }
 
 #ad_words {
-	width:			90%;
 	display:		table-cell;
 	font-size:		180%;
 	font-style:		italic;
 	color:          black;
 	vertical-align:	middle;
+	width:			90%;
 	text-align:		right;
 }
 
