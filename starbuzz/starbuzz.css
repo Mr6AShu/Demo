@@ -5,16 +5,12 @@ body {
   margin:           0px;
 }
 
-#first {
-	background-color: 	#675c47;
-	margin:           	10px 10px 0px 10px;
-	border-radius:		5px;
-}
-
 #header {
-  display:			table;
-  margin:           10px 10px 0px 10px;
-  height:           108px;
+  background-color: 	#675c47;
+  margin:           	10px 10px 0px 10px;
+  display:				table;
+  height:           	108px;
+  border-radius:		5px;
 }
 
 #header_tableRow {
@@ -28,6 +24,7 @@ body {
 }
 
 #ad_words {
+	margin:			10px;
 	display:		table-cell;
 	font-size:		180%;
 	font-style:		italic;

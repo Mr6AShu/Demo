@@ -1,3 +1,7 @@
 #ad_words {
-	text-align:	center;
+	display:		table-cell;
+	font-size:		180%;
+	font-style:		italic;
+	color:          black;
+	vertical-align:	middle;
 }
