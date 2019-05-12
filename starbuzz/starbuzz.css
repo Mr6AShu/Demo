@@ -5,42 +5,26 @@ body {
   margin:           0px;
 }
 
-#header {
+header.top {
   background-color: 	#675c47;
   margin:           	10px 10px 0px 10px;
   height:           	108px;
   border-radius:		5px;
 }
 
-#headerSlogan {
+header.top img#headerSlogan {
 	float:	right;
 }
 
-#award {
-	position:	absolute;
-	top:		30px;
-	left:		45%;
-}
-
-#free_Coffee_Ticket {
-	position:	relative;
-	top:		20px;
-	left:		-115px;
-}
-
-#free_Coffee_Ticket a, img {
-	border:		none;
-}
-
-#tableContainer {
+div#tableContainer {
 	display:		table;
 	border-spacing:	10px;
 }
-#tableRow {
+div#tableRow {
 	display:		table-row;
 }
 
-#drinks {
+section#drinks {
 	display:			table-cell;
 	background-color:	#efe5d0;
 	width:				20%;
@@ -48,7 +32,7 @@ body {
 	vertical-align:		top;		/*为每个单元格增加垂直对齐：top（顶端对齐）、middle（中间对齐）、bottom（底端对齐）*/
 }
 
-#main {
+section#main, section#blog {
   display:			table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
@@ -56,7 +40,7 @@ body {
   vertical-align:	top;
 }
 
-#sidebar {
+aside {
   display:			table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
@@ -64,7 +48,7 @@ body {
   vertical-align:	top;
 }
 
-#footer {
+footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
@@ -95,4 +79,31 @@ a:visited {
   color:            #675c47;
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
+}
+
+
+nav {
+	background-color:	#efe5d0;
+	margin:				10px 10px 0px 10px;
+}
+
+nav ul {
+	margin:				0px;					/*设置ul外边距为0px，使得其能紧贴nav元素中（否则默认时<ul>元素会有外边距让<ul>稍稍偏离）*/
+	list-style-type:	none;					/*此处为删除列表项的项目符号*/
+	padding:			5px 0px 5px 0px;
+}
+
+nav ul li {
+	display:			inline;					/*此处为将各个列表项的显示从block改为inline，所以现在列表项前后不会再有回车，而是会显示在一行中*/
+	padding:			5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {					/*此处为设置导航中的连接与页面其它的连接有所不同*/
+	color:				#954b4b;
+	border-bottom:		none;
+	font-weight:		bold;
+}
+
+nav ul li.selected {
+	background-color:	#c8b99c;				
 }
