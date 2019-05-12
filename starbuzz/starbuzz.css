@@ -16,6 +16,12 @@ header.top img#headerSlogan {
 	float:	right;
 }
 
+#award {
+	position:		absolute;
+	top:			9%;
+	left:			40%;
+}
+
 div#tableContainer {
 	display:		table;
 	border-spacing:	10px;
@@ -30,6 +36,16 @@ section#drinks {
 	width:				20%;
 	padding:			15px;
 	vertical-align:		top;		/*为每个单元格增加垂直对齐：top（顶端对齐）、middle（中间对齐）、bottom（底端对齐）*/
+}
+
+#coupon {
+	position:			relative;
+	top:				20px;
+	left:				-115px;
+}
+
+#coupon a, img {
+	border:				none;
 }
 
 section#main, section#blog {
